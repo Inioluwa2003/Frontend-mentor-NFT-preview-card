@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-page-using-basic-css-7hOvcrEETY)
+- Live Site URL: (https://inioluwa2003.github.io/Frontend-mentor-NFT-preview-card/)
 
 ## My process
 
