@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wgt@300;400;600&display=swap");
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+}
+main{
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    border-radius: 15px;
+}
+.img{
+    position: relative;
+    margin: 20px 20px 0 20px;
+}
+.main-image{
+    width: 360px;
+    border-radius: 10px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+    display: none;
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+}
+.img:hover .overlay{
+    cursor: pointer;
+    display: block;
+}
+.img:hover .overlay +.view{
+    display: block;
+    cursor: pointer;
+}
+.desc{
+    padding: 0 20px 0 20px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p{
+    color: hsl(215, 51%, 70%);
+}
+.price_timer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-bottom: 20px;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+}
+.timer{
+    color: hsl(215, 51%, 70%);
+}
+.artist{
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    align-items: center;
+    margin: 0 20px 10px 20px;
+}
+.artist img{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    margin-right:10px ;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.name:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
